@@ -2,3 +2,54 @@ body {
     background-color: blueviolet;
     color: white;
 }
+
+.pure-menu {
+    background-color: black;
+}
+.home-menu .pure-menu-link {
+    color: white;
+}
+
+.home-menu .pure-menu-heading:hover {
+    background: none;
+}
+.home-menu li a:hover {
+    background-color: lightgray;
+}
+
+.header .pure-g {
+    text-align: center;
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 20px; left: 0; bottom: 0; right: 0;
+    margin: auto;
+}
+
+/* header */
+.header .pure-g h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 1em 1.6em;
+    font-weight: 100;
+    border-radius: 5px;
+    line-height: 1em;
+}
+
+/* subheader */
+.header .pure-g p {
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+}
+
+a.button-success {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a.button-success {
+    background: rgb(28, 184, 65);
+}
