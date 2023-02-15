@@ -22,8 +22,9 @@
         <div class="pure-g">
             <div class="pure-u-1">
                 <h1>Hello!</h1>
-                <p>test text</p>
-                <a href="{{ url_for('login') }}" class="button-success pure-button">Login</a>
+                <p>session data</p>
+                {{session}}
+                <a href="{{ url_for('login_pages.login') }}" class="button-success pure-button">Login</a>
             </div>
         </div>
     </div>
